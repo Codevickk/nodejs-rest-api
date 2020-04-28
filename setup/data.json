@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Adeniji Victor",
+    "email": "victoradeniji24@gmail.com",
+    "gender": "Male",
+    "course": "Software Engineering",
+    "age": 20
+  },
+  {
+      "name": "Susan Evans",
+      "email": "susanevans15@yahoo.com",
+      "gender": "Female",
+      "course": "Multimedia Technology",
+      "age": 19
+  }
+]
