@@ -1,10 +1,9 @@
-const fs = require('fs');
 const Student = require('../models/studentModel');
 
 // GET ALL STUDENTS
 exports.getAllStudents = async (req, res) => {
 	try {
-		const students = await Student.find();
+		const students = await Student.find().sort({ _id: -1 });
 		res.status(200).json({
 			count: students.length,
 			status: 'success',
